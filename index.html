@@ -12,6 +12,10 @@
         .navbar-container {
             margin-bottom: 20px;
         }
+        body {
+  background-color: #000; /* Negro */
+  color: #FFF; /* Opcional: establece el color del texto a blanco para contraste */
+}
        
     </style>
 </head>
@@ -68,11 +72,96 @@
         </div>
       </div>
       
-      <div class="col-md-4">
+      <div class="col-md-4 mx-auto text-center" style="margin-top: 50px;">
         <img src="Imagenes/Eslogan.jpg" class="rounded img-fluid" alt="Imagen 3">
-        <p>Más que un centro comercial, una experiencia</p>
+        <p style="font-size: 24px; font-weight: bold; color: #FF5733; margin-top: 20px;">Más que un centro comercial, una experiencia</p>
       </div>
+      <style>
+        .container {
+            display: flex;
+            gap: 20px; /* Ajusta el valor según la separación deseada */
+            padding: 10px;
+        }
+        .item {
+            text-align: center;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">
+            <img src="Imagenes/Tienda deportiva.jpg" alt="imagen Tienda deportiva">
+            <p>Tienda deportiva</p>
+        </div>
+        <div class="item">
+            <img src="Imagenes/Tienda tecnología.png" alt="imagen Tienda tecnología">
+            <p>Tienda de Tecnología</p>
+        </div>
+        <div class="item">
+            <img src="Imagenes/Tienda de ropa.png" alt="imagen Tienda de ropa">
+            <p>Tienda de Ropa</p>
+        </div>
+        <div class="item">
+            <img src="Imagenes/Tienda comida.png" alt="imagen Tienda comida">
+            <p>Plazoleta de comida</p>
+        </div>
     </div>
+      
+         <!-----------------------------------------Redes Sociales----------------------------------------------->
+         <style>
+            .social-btn {
+                display: inline-block;
+                background-color: #3b5998; /* azul de Facebook */
+                color: white;
+                font-size: 13px;
+                font-weight: bold;
+                text-align: center;
+                padding: 10px 20px;
+                border-radius: 5px;
+                text-decoration: none;
+                margin-right: 10px;
+            }
+            .social-btn:hover {
+                background-color: #2d4373; /* azul oscuro de Facebook */
+                color: white;
+            }
+            .social-btn i {
+                margin-right: 10px;
+            }
+            .facebook-btn {
+                background-color: #3b5998; /* azul de Facebook */
+            }
+            .twitter-btn {
+                background-color: #1da1f2; /* azul de Twitter */
+            }
+            .instagram-btn {
+                background-color: #e1306c; /* rosa de Instagram */
+            }
+            .social-wrapper {
+                display: flex;
+                justify-content: center; /* Centrar los botones horizontalmente */
+                margin-top: 20px;
+            }
+            .social-btn-wrapper {
+                display: flex;
+                align-items: center;
+            }
+        </style>
+        
+        <h1 style="font-weight: bold; font-style: italic; font-size: 36px; text-align: center;">Contáctanos</h1>
+        
+        <div class="social-wrapper">
+            <div class="social-btn-wrapper">
+                <a href="https://www.facebook.com" class="social-btn facebook-btn"><i class="fab fa-facebook-f"></i>Facebook</a>
+                <a href="https://twitter.com" class="social-btn twitter-btn"><i class="fab fa-twitter"></i>Twitter</a>
+                <a href="https://www.instagram.com" class="social-btn instagram-btn"><i class="fab fa-instagram"></i>Instagram</a>
+            </div>
+        </div>
+        
       
 </body>
 </html>
